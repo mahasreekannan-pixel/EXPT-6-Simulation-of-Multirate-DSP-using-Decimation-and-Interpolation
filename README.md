@@ -8,38 +8,38 @@
 PC installed with SCILAB. 
 
 # PROGRAM: 
-clear; 
-clc; 
-close; 
-n = 0:%pi/50:2*%pi; 
-x = sin(%pi*n); //original signal 
-M=input('Enter the downsampling factor'); 
-L=input('Enter the upsampling factor'); 
-//Down Sampling 
-downsampling_x = x(1:M:length(x)); 
-disp(x,'Input signal x(n)='); 
-disp(downsampling_x,'Downsampled Signal'); 
-figure(1); 
-subplot(2,1,1) 
-plot2d3(1:length(x),x); 
-xtitle('original singal') 
-subplot(2,1,2) 
-plot2d3(1:length(downsampling_x),downsampling_x); 
-xtitle('Downsampled Signal by a factor of M'); 
-//Upsampling 
-upsampling_x=[]; 
-for i=1:length(x) 
-upsampling_x(1,L*i)=x(i); 
-end 
-disp(x,'Input signal x(n)='); 
-disp(upsampling_x,'Upsampled Signal'); 
-figure(2); 
-subplot(2,1,1); 
-plot2d3(x); 
-title('original signal'); 
-subplot(2,1,2); 
-plot2d3(upsampling_x); 
-title('Upsampled Signal by a factor of L');
+<br>clear; 
+<br>clc; 
+<br>close; 
+<br>n = 0:%pi/50:2*%pi; 
+<br>x = sin(%pi*n); //original signal 
+<br>M=input('Enter the downsampling factor'); 
+<br>L=input('Enter the upsampling factor'); 
+<br>//Down Sampling 
+<br>downsampling_x = x(1:M:length(x)); 
+<br>disp(x,'Input signal x(n)='); 
+<br>disp(downsampling_x,'Downsampled Signal'); 
+<br>figure(1); 
+<br>subplot(2,1,1) 
+<br>plot2d3(1:length(x),x); 
+<br>xtitle('original singal') 
+<br>subplot(2,1,2) 
+<br>plot2d3(1:length(downsampling_x),downsampling_x); 
+<br>xtitle('Downsampled Signal by a factor of M'); 
+<br>//Upsampling 
+<br>upsampling_x=[]; 
+<br>for i=1:length(x) 
+<br>upsampling_x(1,L*i)=x(i); 
+<br>end 
+<br>disp(x,'Input signal x(n)='); 
+<br>disp(upsampling_x,'Upsampled Signal'); 
+<br>figure(2); 
+<br>subplot(2,1,1); 
+<br>plot2d3(x); 
+<br>title('original signal'); 
+<br>subplot(2,1,2); 
+<br>plot2d3(upsampling_x); 
+<br>title('Upsampled Signal by a factor of L');
 
 
 # OUTPUT: 
