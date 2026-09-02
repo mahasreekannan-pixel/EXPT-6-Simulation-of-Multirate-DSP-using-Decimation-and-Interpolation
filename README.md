@@ -50,7 +50,7 @@ PC installed with SCILAB.
 
 # RESULT: 
 Thus the Multirate-DSP-using-Decimation-and-Interpolation using python was performed and verified.
-Thus the Multirate-DSP-using-Decimation-and-Interpolation using python was performed and verified.
+<br>Thus the Multirate-DSP-using-Decimation-and-Interpolation using python was performed and verified.
 Thus the Multirate-DSP-using-Decimation-and-Interpolation using python was performed and verified.
 
 <img width="455" height="373" alt="image" src="https://github.com/user-attachments/assets/ef137601-ebd7-4cf9-a80d-4264424defab" />
